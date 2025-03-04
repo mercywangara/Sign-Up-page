@@ -41,7 +41,7 @@ h1{
           .hr-lines:before{
     content:" ";
     height: 1px;
-    width: 265px;
+    width: 220px;
     background:  rgb(104, 91, 91);
     display: block;
     position: absolute;
@@ -52,7 +52,7 @@ h1{
   .hr-lines:after{
     content:" ";
     height: 1px;
-    width: 265px;
+    width: 220px;
     background: rgb(104, 91, 91);
     display: block;
     position: absolute;
@@ -83,9 +83,7 @@ h1{
 .vertical-line {
 
   border-left: 1px solid plum;
-  
-
-  height: 700px;
+  height: 780px;
   
 }
 input{
