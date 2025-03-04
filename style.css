@@ -4,26 +4,32 @@ body{
   height: 100%;
   background-color: rgb(244, 227, 247);
 }
+#image{
+  width: 70%;
+  padding: 20px;
+  margin:1px 5px 5px 250px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(172, 86, 172);
+}
 
 .split_container{
       display: flex;
-      margin: 20px 20px 20px 20px;
-      height: 90px;
-      
 }
 .split_left{
   width: 50%;
-  height: 100%;
-  padding: 5% 9%;
+  height: 40px;
+  padding:auto;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
+  font-size: 10px;
 }
 
 
 .split_right{
-    flex: 1;
-    flex-direction: column;
-    padding: 30px 50px 0 130px;
+    padding: 30px 50px 0 80px;
+    
 }
 
 .hr-lines{
@@ -89,18 +95,16 @@ input{
 
 .continers{
   display: flex;
-  gap: 60px;
+  gap: 40px;
 
 
 }
 .lname{
-  display: flex;
-  width: 300px;
+  width: 200px;
 }
 
 .fname{
-  display: flex;
-  width: 300px;
+  width: 200px;
  
 }
 #images{
@@ -109,20 +113,18 @@ input{
   width: 100%;
 padding-right: 100px;
 }
-h1{
-  color: blueviolet;
-  justify-content: center;
-  margin-left: 200px;
-}
 #google{
-  width: 30px;
+  width: 40px;
   height: 30px;
+  border: 1px solid white;
   background-color: white;
 }
 #facebook{
-  width: 30px;
+  width: 50px;
   height: 30px;
   background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 #apple{
   width: 60px;
